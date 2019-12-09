@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/dotnet/core/sdk:3.0
+FROM mcr.microsoft.com/dotnet/core/sdk:3.1
 MAINTAINER kgamecarter@gmail.com
 
 RUN apt install -yq apt-transport-https dirmngr gnupg ca-certificates
